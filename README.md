@@ -43,7 +43,8 @@ These defines are used by the LVGL drivers for these boards: [esp32-smartdisplay
 | [ESP32-8048S070N](#esp32-8048s070-nrc)        | USB-C             | ESP32-S3-WROOM-1-MCN16R8 | 16Mb  | 8Mb   | 2 x 240Mhz  | [800x480](assets/lcd/JC8048B070N.pdf) | 7.0"       | Direct 16 bits              | [ST7262](assets/datasheets/ST7262.pdf)   |                 |                                          |                                          |                                               |     |                                           |       | [Ali Express](https://www.aliexpress.com/item/1005005928865239.html) |
 | [ESP32-8048S070R](#esp32-8048s070-nrc)        | USB-C             | ESP32-S3-WROOM-1-MCN16R8 | 16Mb  | 8Mb   | 2 x 240Mhz  | [800x480](assets/lcd/JC8048B070N.pdf) | 7.0"       | Direct 16 bits              | [ST7262](assets/datasheets/ST7262.pdf)   | SPI             | [XPT2046](assets/datasheets/XPT2046.pdf) |                                          |                                               |     |                                           |       | [Ali Express](https://www.aliexpress.com/item/1005005928865239.html) |
 | [ESP32-JC8048W550C](#esp32-8048w550-c)        | USB-C             | ESP32-S3-WROOM-1 | 16Mb  | 8Mb   | 2 x 240Mhz  | [800x480](assets/lcd/JC8048W550N.pdf) | 7.0"       | Direct 16 bits              | [ST7262](assets/datasheets/ST7262.pdf)   | SPI             | [GT911](assets/datasheets/GT911.pdf) |                                          |                                               |     |                                           |       | [Ali Express](https://de.aliexpress.com/item/1005006715794302.html) |
-| [ESP32-S3-Touch-LCD-7](#esp32-s3-touch-lcd-7) | USB-C             | ESP32-S3-WROOM-1-MCN8R8  | 8Mb   | 8Mb   | 2 x 240Mhz  | [800x480](assets/lcd/JC8048B070N.pdf) | 7.0"       | Direct 16 bits              | [ST7262](assets/datasheets/ST7262.pdf)   | I2C             | [GT911](assets/datasheets/GT911.pdf)     |                                          |                                               |     |                                           |       | [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-7)     |
+| [ESP32-S3-Touch-LCD-7](#esp32-s3-touch-lcd-7) | USB-C             | ESP32-S3-WROOM-1-MCN8R8  | 8Mb   | 8Mb   | 2 x 240Mhz  | [800x480](assets/lcd/JC8048B070N.pdf) | 7.0"       | Direct 16 bits              | [ST7262](assets/datasheets/ST7262.pdf)   | I2C             | [GT911](assets/datasheets/GT911.pdf)     |                                          |                                               |     |                                           |       | [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-7)     | 
+| [ESP32-S3-Touch-LCD-4.3](#esp32-s3-touch-lcd-43) | USB-C             | ESP32-S3-WROOM-1-MCN8R8  | 8Mb   | 8Mb   | 2 x 240Mhz  | [800x480](assets/lcd/JC4827B043N.pdf) | 4.3"       | Direct 16 bits              | [ST7262](assets/datasheets/ST7262.pdf)   | I2C             | [GT911](assets/datasheets/GT911.pdf)     |                                          |                                               |     |                                           |       | [Waveshare](https://www.waveshare.com/wiki/ESP32-S3-Touch-LCD-4.3)     |
 
 > [!NOTES]
 >
@@ -472,3 +473,16 @@ The touch controller is in fact a CST820 but this is upward compatible with the 
 - PH2.0 battery Interface
 
 ![ESP32-S3-Touch-LCD-7](assets/images//esp32-s3-touch-lcd-7.png)
+
+### ESP32-S3-Touch-LCD-4.3
+
+- USB-C
+- ST7262 / 16 bit parallel interface
+- GT911 / XPT2046
+- CAN interface
+- RS485 interface
+- TF card interface
+- I2C
+- PH2.0 battery Interface
+
+![ESP32-S3-Touch-LCD-4.3](assets/images//esp32-s3-touch-lcd-4.3.jpg)
